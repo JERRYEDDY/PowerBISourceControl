@@ -1,0 +1,131 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.11.0/schema.json",
+  "name": "5749f23e835560a0a46f",
+  "position": {
+    "x": 9.89010989010989,
+    "y": 0,
+    "z": 0,
+    "height": 720,
+    "width": 1269.89010989011,
+    "tabOrder": 0
+  },
+  "visual": {
+    "visualType": "tableEx",
+    "query": {
+      "queryState": {
+        "Values": {
+          "projections": [
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "Dimension Account"
+                    }
+                  },
+                  "Property": "account"
+                }
+              },
+              "queryRef": "Dimension Account.account",
+              "nativeQueryRef": "account"
+            },
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "Dimension Account"
+                    }
+                  },
+                  "Property": "accountcategory"
+                }
+              },
+              "queryRef": "Dimension Account.accountcategory",
+              "nativeQueryRef": "accountcategory"
+            },
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "Dimension Account"
+                    }
+                  },
+                  "Property": "accounttype"
+                }
+              },
+              "queryRef": "Dimension Account.accounttype",
+              "nativeQueryRef": "accounttype"
+            },
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "Dimension Account"
+                    }
+                  },
+                  "Property": "active"
+                }
+              },
+              "queryRef": "Dimension Account.active",
+              "nativeQueryRef": "active"
+            },
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "Dimension Account"
+                    }
+                  },
+                  "Property": "debit credit"
+                }
+              },
+              "queryRef": "Dimension Account.debit credit",
+              "nativeQueryRef": "debit credit"
+            },
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "Dimension Account"
+                    }
+                  },
+                  "Property": "description"
+                }
+              },
+              "queryRef": "Dimension Account.description",
+              "nativeQueryRef": "description"
+            }
+          ]
+        }
+      }
+    },
+    "objects": {
+      "columnWidth": [
+        {
+          "properties": {
+            "value": {
+              "expr": {
+                "Literal": {
+                  "Value": "534.2417763073398D"
+                }
+              }
+            }
+          },
+          "selector": {
+            "metadata": "Dimension Account.description"
+          }
+        }
+      ],
+      "columnHeaders": [
+        {
+          "properties": {}
+        }
+      ]
+    },
+    "drillFilterOtherVisuals": true
+  }
+}

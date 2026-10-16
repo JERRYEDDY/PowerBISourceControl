@@ -1,0 +1,199 @@
+table 'Dimension Account'
+	lineageTag: cf41e95b-c5b2-4dc1-9704-7c0bbf5992a9
+
+	column account
+		dataType: string
+		lineageTag: 1c10c670-5a00-44eb-bd8d-11bbaf474ec0
+		summarizeBy: none
+		sourceColumn: account
+
+		annotation SummarizationSetBy = Automatic
+
+	column description
+		dataType: string
+		lineageTag: 643ad766-43f6-40d8-acc4-6ddcf5ebb662
+		summarizeBy: none
+		sourceColumn: description
+
+		annotation SummarizationSetBy = Automatic
+
+	column accounttype
+		dataType: string
+		lineageTag: d274426f-f885-46ad-bc89-9845cf763ff4
+		summarizeBy: none
+		sourceColumn: accounttype
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'debit credit'
+		dataType: string
+		lineageTag: 9cbde39f-20e2-4e3f-81bb-17dd07f0ae0e
+		summarizeBy: none
+		sourceColumn: debit credit
+
+		annotation SummarizationSetBy = Automatic
+
+	column accountcategory
+		dataType: string
+		lineageTag: 4b61a580-1d09-4ebb-b008-52d47b2b2e0c
+		summarizeBy: none
+		sourceColumn: accountcategory
+
+		annotation SummarizationSetBy = Automatic
+
+	column active
+		dataType: boolean
+		formatString: """TRUE"";""TRUE"";""FALSE"""
+		lineageTag: f4ec9661-cbdb-4ed3-9f2b-55108d526f52
+		summarizeBy: none
+		sourceColumn: active
+
+		annotation SummarizationSetBy = Automatic
+
+	column source
+		dataType: string
+		lineageTag: 2f89580c-5b67-4b47-b012-f272beac8b50
+		summarizeBy: none
+		sourceColumn: source
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'rollup level 1'
+		dataType: string
+		lineageTag: 40b5ff8b-f232-4dd2-afe5-0b0ba2ea0540
+		summarizeBy: none
+		sourceColumn: rollup level 1
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'rollup level 2'
+		dataType: string
+		lineageTag: 4a067cac-5fce-4a12-8ebb-891e9f1c8ae2
+		summarizeBy: none
+		sourceColumn: rollup level 2
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'rollup level 3 - other employee expense'
+		dataType: string
+		lineageTag: ff3d8eed-13dd-407d-bff4-9cf80a24a9b9
+		summarizeBy: none
+		sourceColumn: rollup level 3 - other employee expense
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'rollup level 4 - contracted labor'
+		dataType: string
+		lineageTag: 8c506984-3377-4483-b2f9-1bb768a6bc58
+		summarizeBy: none
+		sourceColumn: rollup level 4 - contracted labor
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'rollup level 5 - occupancy related expense'
+		dataType: string
+		lineageTag: 966c8c84-611c-44fc-be0e-e496e6207d12
+		summarizeBy: none
+		sourceColumn: rollup level 5 - occupancy related expense
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'rollup level 6 - programmatic and operational expense'
+		dataType: string
+		lineageTag: b5ce7c6a-4e25-40cf-87f6-76b0197e1dac
+		summarizeBy: none
+		sourceColumn: rollup level 6 - programmatic and operational expense
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'rollup level 7 - travel related expense'
+		dataType: string
+		lineageTag: aea47cf4-7c95-44ed-b592-62020624d81f
+		summarizeBy: none
+		sourceColumn: rollup level 7 - travel related expense
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'rollup level 8 - outreach expenses'
+		dataType: string
+		lineageTag: b622d894-714c-4857-b41d-9ea4a425012b
+		summarizeBy: none
+		sourceColumn: rollup level 8 - outreach expenses
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'rollup level 9 - professional and management expenses'
+		dataType: string
+		lineageTag: b8ff4c18-f92c-4a20-bba2-ddb943d4fea1
+		summarizeBy: none
+		sourceColumn: rollup level 9 - professional and management expenses
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'rollup level 10 - organizational and investment expense'
+		dataType: string
+		lineageTag: 898455d3-6f14-42d8-8ac6-0ffb5f252ede
+		summarizeBy: none
+		sourceColumn: rollup level 10 - organizational and investment expense
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'rollup level 11 - stmt of activities accounts'
+		dataType: string
+		lineageTag: a0b6c208-5378-4508-9760-427ceb224a35
+		summarizeBy: none
+		sourceColumn: rollup level 11 - stmt of activities accounts
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'rollup level 12 - stmt of financial position accounts'
+		dataType: string
+		lineageTag: ebd23a76-e921-4af2-a42c-dad9081af7cb
+		summarizeBy: none
+		sourceColumn: rollup level 12 - stmt of financial position accounts
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'rollup level 14 - human capital expense'
+		dataType: string
+		lineageTag: 24f43881-6d12-4cb8-93a3-9a91e1ffdae4
+		summarizeBy: none
+		sourceColumn: rollup level 14 - human capital expense
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'rollup level 15 - business ops expense'
+		dataType: string
+		lineageTag: ee09f7c2-c3e6-4fac-ad23-d8320dccc0c9
+		summarizeBy: none
+		sourceColumn: rollup level 15 - business ops expense
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'rollup level 16 - operations expense'
+		dataType: string
+		lineageTag: 45bbe77b-c90e-4180-85a6-296e7ba26b87
+		summarizeBy: none
+		sourceColumn: rollup level 16 - operations expense
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'rollup level 13 - maint expense'
+		dataType: string
+		lineageTag: a04ebe19-c756-486e-afdd-25870b2e2508
+		summarizeBy: none
+		sourceColumn: rollup level 13 - maint expense
+
+		annotation SummarizationSetBy = Automatic
+
+	partition 'Dimension Account' = m
+		mode: import
+		source =
+				let
+				  Source = BI360.Contents("https://us.app.solverglobal.com/api/dw/externalApi/"),
+				  #"Navigation 1" = Source{[label = "Dimension Account"]}[Data]
+				in
+				  #"Navigation 1"
+
+	annotation PBI_ResultType = Table
+

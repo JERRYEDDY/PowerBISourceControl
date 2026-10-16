@@ -1,0 +1,11 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/gitIntegration/platformProperties/2.0.0/schema.json",
+  "metadata": {
+    "type": "SemanticModel",
+    "displayName": "SolverTest"
+  },
+  "config": {
+    "version": "2.0",
+    "logicalId": "326afa77-9c11-4575-8bb6-e11677f95ec7"
+  }
+}
